@@ -12,10 +12,12 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <style>
 
-    .nav-tabs {
-        margin-bottom: 0;
-    }
-    </style>
+    .navbar{
+        margin-bottom:0;
+        border-radius:0;
+      }
+
+</style>
     
 </head>
 <body>
@@ -36,13 +38,13 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li><a href="#About">About<span class="sr-only">(current)</span></a></li>
+              <li><a href="#About">About Me<span class="sr-only">(current)</span></a></li>
               <li><a href="#Resume">Resume</a></li>
               <li><a href="#Links">Links</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
-      </nav>
+    </nav>
   
       <!-- JUMBOTRON -->
     <div class="jumbotron text-center">
@@ -52,16 +54,22 @@
         </div>
     </div>
 
-<div class="container">
-    <!--About-->
-    <div class="jumbotron jumbotron" id="About">
-        <div class="container">
-            <h1 >About</h1>
-            <p >This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-    </div>
+<!--Typography-->
+    <!--About Me-->
+    <div class="container" id="About">
+        <h1 class="page-header">About Me <small>Secondary text</small></h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p><mark>Lorem ipsum dolor sit amet</mark>, consectetur adipisicing elit, sed do eiusmod
+        tempor <del>incididunt ut labore</del> et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation <u>ullamco laboris nisi</u> ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  
+        <hr>
 
-              <!--Resume-->
+    <!--Resume-->
     <div class="card" >
         <div class="card-body" >
           <h1 class="card-title" id="Resume">Resume</h1>
@@ -69,16 +77,15 @@
         <img class="card-img-bottom" src="1.jpg" alt="Card image cap">
     </div>
 
-<!--Links-->
-    <div class="jumbotron jumbotron" id="Links"> 
-        <div class="container">
-            <h1 >Links</h1>
-            <p >My GitHub account: <a href="https://github.com/chiduong4107" target="_blank">https://github.com/chiduong4107</a></p>
-            <p class="lead">My email: chiduong4107@gmail.com</p>
-        </div>
-    </div>
-</div>
-        
+    <!--Links-->
+
+    <div class="container" id="Links">
+        <h1 class="page-header">Links <small>Secondary text</small></h1>
+        <p class="lead">GitHub: <a href="https://github.com/chiduong4107" target="_blank">https://github.com/chiduong4107</a></p>
+        <p class="lead">Email: chiduong4107@gmail.com</p>
+
+  
+        <hr>
 
 
 
